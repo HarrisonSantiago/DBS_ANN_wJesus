@@ -21,4 +21,4 @@ python ann_train.py <model_name>
 
 [ann_predict_lib.py](ann_predict_lib.py) provides a class with functions that make using the ANNs easier. Alternatively, use [custom_predict.py](custom_predict.py). 
 
-Here the ANN should be trained on input/output data from the Comsol model and Neuron(see example data in onedrive).
+Here the ANN should be trained on input/output data from the Comsol model and Neuron(see example data in onedrive). Line 27 in ann_train_lib.py will tell you what each column in that csv means.
